@@ -1,0 +1,45 @@
+# OpenClaw workspace files
+.openclaw/
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+
+# Memory & logs
+memory/
+memorized_diary/
+memory_consolidation/
+skills/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Downloads & temp
+downloads/
+*.tar.gz
+*.zip
+test.zip
+
+# Duplicated / intermediate datasets
+datasets/CIC-IDS-2017-Dataset/
+datasets/comsyssec-datasets/
+datasets/cicids2017/synthetic_cicids2017.csv
+datasets/cicids2017/synthetic_cicids2017_small.csv
+datasets/cicids2017/synthetic_cicids2017_2k.csv
+datasets/cicids2017/friday_ddos.csv
+datasets/cicids2017/test.zip
+datasets/cicids2017/MachineLearningCSV.zip
+datasets/cicids2017/MachineLearningCSV_v2.zip
+datasets/cicids2017/__pycache__/
+
+# Shell scripts
+*.sh
+
+# OS
+.DS_Store
+Thumbs.db
