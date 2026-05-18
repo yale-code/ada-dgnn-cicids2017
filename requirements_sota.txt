@@ -1,0 +1,26 @@
+# ADA-DGNN V2 SOTA Dependencies
+# =================================
+
+# Core ML/DL
+torch>=2.0.0
+torchvision
+torchaudio
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Hyperparameter Optimization
+optuna>=3.4.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: GPU support (uncomment if using CUDA)
+# torch --index-url https://download.pytorch.org/whl/cu118
+
+# Development
+jupyter
+pytest
+tqdm
